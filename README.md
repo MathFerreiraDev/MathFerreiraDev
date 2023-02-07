@@ -1,4 +1,4 @@
-### Frontend Hello World !!! 🌎👋🏼
+### Hello World !!! 🌎👋🏼
 
 <div align="center">  
 <h1>Let's started:</h1>
