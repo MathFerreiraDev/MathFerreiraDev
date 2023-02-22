@@ -7,3 +7,4 @@
 <a> 👨🏽‍💻 Programming is very cool</a><br>
 <a> 📆 15 years</a><br>
 <div>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=marko&show_icons=true)
