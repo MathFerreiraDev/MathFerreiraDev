@@ -1,4 +1,4 @@
-### <div align="center">Hello World, I am always trying to push my limits !!! 🌎👋🏼
+### <div align="center">Hello World, I am always trying to push my limits !!! 🌎👋🏼</div>
 
 <div align="center">  
 <h1>Let's started:</h1>
@@ -6,11 +6,25 @@
 <a> 💪 I am training every day to improve my skills</a><br> 
 <a> 👨🏽‍💻 Programming is very cool</a><br>
 <a> 📆 15 years</a><br>
-<div>
-<div align="center">
-<h1> My skills</h1>
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats">
+<div align="center">
+<h2> My skills</h2>
+
+<img height="200em" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
+<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats">
+</div>
+  
+<div align="center">
+<h2> Top Languages 🤠 (I don't think I've ever posted anything here with them, but okay)</h2>
+<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" height="60">
+<img margin-right="10" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" height="65">
+<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="50">
+<img margin-right="10" src="http://adrianob.com.br/wp-content/uploads/2017/09/3195b01a3ba41.png" height="50">
+<img margin-right="10" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" height="70">
+ 
+</div>
+ 
+
 
 
