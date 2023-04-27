@@ -13,7 +13,7 @@
 <img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" height="120">
 <img margin-right="10" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" height="130">
 <img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="110">
-<img margin-right="10" src="[http://adrianob.com.br/wp-content/uploads/2017/09/3195b01a3ba41.png](https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-development-mysql-logo-code-icon-9.png)" height="110">
+<img margin-right="10" src="https://altyra.com/wp-content/uploads/2018/11/mysql-logo-png-transparent.png" height="110">
 <img margin-right="10" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" height="135">
  
 </div>
