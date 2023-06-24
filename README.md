@@ -1,4 +1,6 @@
+
 ### <div align="center">Hello World, I am always trying to push my limits !!! 🌎👋🏼</div>
+<img align="center" src="https://github.com/BrunnerLivio/brunnerlivio/blob/master/images/welcome.png?raw=true" style="max-width: 100%;" alt="Welcome to my Github Profile" />
 
 <div align="center">  
 <h1>Let's started:</h1>
@@ -34,7 +36,7 @@
 <h2> My skills</h2>
 
 <img height="150em" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact">
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact"><br>
 </div>
 </div>
   
