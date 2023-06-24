@@ -27,7 +27,7 @@
 <h2> My skills</h2>
 
 <img height="150em" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
-<img height="150em" src=https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev-dev&layout=compact&theme=merko">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iagof-dev&layout=compact&theme=dark)]()
 </div>
   
 
