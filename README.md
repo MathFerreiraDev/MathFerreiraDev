@@ -10,11 +10,11 @@
 
 <div align="center">
 <h2> Top Languages 🤠 (I don't think I've ever posted anything here with them, but okay)</h2>
-<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" height="120">
-<img margin-right="10" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" height="130">
-<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="110">
-<img margin-right="10" src="https://altyra.com/wp-content/uploads/2018/11/mysql-logo-png-transparent.png" height="110">
-<img margin-right="10" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" height="135">
+<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" height="80">
+<img margin-right="10" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" height="90">
+<img margin-right="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="70">
+<img margin-right="10" src="https://altyra.com/wp-content/uploads/2018/11/mysql-logo-png-transparent.png" height="70">
+<img margin-right="10" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" height="95">
  
 </div>
 
