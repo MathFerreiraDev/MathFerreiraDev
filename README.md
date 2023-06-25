@@ -41,7 +41,8 @@
 <img src="https://streak-stats.demolab.com?user=MathFerreiraDev&theme=gotham&locale=pt_BR&date_format=j%20M%5B%20Y%5D&mode=weekly&border=315612&background=000000">
 <img height="150em" src="https://art.ngfiles.com/comments/129000/iu_129688_8024736.gif">
 </div>
-</div>
+
+<img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
 
 
 
