@@ -37,9 +37,11 @@
 
 <img height="150em" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
 <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact"><br>
+<img src="https://streak-stats.demolab.com?user=MathFerreiraDev&theme=gotham&locale=pt_BR&date_format=j%20M%5B%20Y%5D&mode=weekly&border=315612&background=000000">
 </div>
 </div>
-  
+
+
 
  
 
