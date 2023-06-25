@@ -35,11 +35,11 @@
 <div align="center">
 <h2> My skills</h2>
 
-<img height="150em" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact"><br>
-<img height="150em" src="https://www.fightersgeneration.com/characters/dio-standing2.gif">
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=MathFerreiraDev&theme=merko&show_icons=true">
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathFerreiraDev&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact"><br>
+<img height="150" src="https://www.fightersgeneration.com/characters/dio-standing2.gif">
 <img src="https://streak-stats.demolab.com?user=MathFerreiraDev&theme=gotham&locale=pt_BR&date_format=j%20M%5B%20Y%5D&mode=weekly&border=315612&background=000000">
-<img height="150em" src="https://art.ngfiles.com/comments/129000/iu_129688_8024736.gif">
+<img height="150" src="https://art.ngfiles.com/comments/129000/iu_129688_8024736.gif">
 </div>
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
