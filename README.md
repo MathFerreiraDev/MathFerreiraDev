@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-<h2> Top Languages 🤠 (I don't think I've ever posted anything here with them, but okay)</h2>
+<h2>Tools 🤠 (I don't think I've ever posted anything here with them, but okay)</h2>
 <p align="center"> 
  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" height="70"/> </a> 
  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" height="70"/> </a> 
