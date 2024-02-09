@@ -30,7 +30,7 @@
 
 <div align="center">
 <h2> IDE's 👾</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png" height="80">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png" height="50">
 
 
 <div align="center">
