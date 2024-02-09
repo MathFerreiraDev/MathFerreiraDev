@@ -1,6 +1,6 @@
 
 ### <div align="center">Hello World, I am always trying to push my limits !!! 🌎👋🏼</div>
-//<img align="center" src="https://github.com/BrunnerLivio/brunnerlivio/blob/master/images/welcome.png?raw=true" style="max-width: 100%;" alt="Welcome to my Github Profile" />
+<img align="center" src="https://github.com/BrunnerLivio/brunnerlivio/blob/master/images/welcome.png?raw=true" style="max-width: 100%;" alt="Welcome to my Github Profile" />
 
 <div align="center">  
 <h1>Let's started:</h1>
