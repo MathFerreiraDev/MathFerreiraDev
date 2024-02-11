@@ -2,7 +2,7 @@
 ### <div align="center">Hello World, I am always trying to push my limits !!! 🌎👋🏼</div>
 
 <div align="center">  
-<h1>Let's started:</h1>
+<h1>Let's started: <img src="https://camo.githubusercontent.com/d0839caaee087179aed17073b0e759f641b661c0cab81ef95e9846975c2091f8/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f3630667073706172726f742e676966" height="40" alt="parrot" /></h1>
 <a> 👤 My name is Matheus</a><br>
 <a> 💪 I am training every day to improve my skills</a><br> 
 <a> 👨🏽‍💻 Programming is very cool</a><br>
