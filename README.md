@@ -11,7 +11,7 @@
   <br>
 <span align="center">
 
-  <img  margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&theme=juicyfresh">
+  <img  margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&theme=gruvbox">
 </span>
 <br>
 
