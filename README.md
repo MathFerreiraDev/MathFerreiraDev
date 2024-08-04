@@ -7,6 +7,15 @@
 <a> 💪 I am training every day to improve my skills</a><br> 
 <a> 👨🏽‍💻 Programming is very cool</a><br>
 <a> 📆 17 years</a><br>
+
+  <br>
+<span align="center">
+
+  <img  margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&theme=juicyfresh">
+</span>
+<br>
+
+
 </div>
 
 <div align="center">
