@@ -57,6 +57,7 @@
   <img  margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&margin-w=5&margin-h=15&theme=gruvbox&no-frame=true">
 </span>
 <br>
+<br>
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
 
