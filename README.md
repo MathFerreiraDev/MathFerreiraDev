@@ -54,7 +54,7 @@
 
 <br>
 <span align="center">
-  <img  margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&margin-w=5&margin-h=15&theme=gruvbox&no-frame=true">
+  <img align="center" margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&margin-w=25&margin-h=15&theme=gruvbox&no-frame=true&title=-Experience">
 </span>
 <br>
 <br>
