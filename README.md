@@ -13,25 +13,25 @@
 
 ### ⚒️ Main tools
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,arduino,mysql,sqlite,mongodb&perline=6" height="120"/>
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,arduino,mysql,sqlite,mongodb&perline=6" height="60"/>
 </a>
 
 
 ### 📤 Frameworks
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,nodejs,dotnet,react&perline=6" height="60"/>
+    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,nodejs,dotnet,react&perline=6" height="30"/>
 </a>
 
 
 ### 🖥️ Workspaces
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,vercel,eclipse,unity&perline=6" height="120"/>
+    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,vercel,eclipse,unity&perline=6" height="60"/>
 </a>
 
 
 ### 🍀 Utilities
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,mint,windows,github,figma&perline=6" height="60"/>
+    <img src="https://skillicons.dev/icons?i=linux,mint,windows,github,figma&perline=6" height="30"/>
 </a>
 
 
