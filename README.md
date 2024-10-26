@@ -23,12 +23,12 @@
 
 ## 🖥️ Workspaces
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,sublime,replit,unity" height="60"/>
+    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,eclipse,unity" height="60"/>
 </a>
 
 ## 🍀 Utilities
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,mint,windows" height="60"/>
+    <img src="https://skillicons.dev/icons?i=linux,mint,windows,github" height="60"/>
 </a>
 
 <div align="center">
