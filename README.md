@@ -10,32 +10,30 @@
            
   </div>
   
-<table style="border-radius: 5"><tr>
-<td valign="top" width="25%">
-⚒️ Main tools
+
+### ⚒️ Main tools
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,arduino,mysql,sqlite,mongodb&perline=5" height="160"/>
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,arduino,mysql,sqlite,mongodb&perline=6" height="120"/>
 </a>
 
-</td><td valign="top" width="25%">
- 📤 Frameworks
+
+### 📤 Frameworks
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,nodejs,dotnet,react&perline=5" height="70"/>
+    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,nodejs,dotnet,react&perline=6" height="60"/>
 </a>
 
-</td><td valign="top" width="25%">
-🖥️ Workspaces
+
+### 🖥️ Workspaces
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,vercel,eclipse,unity&perline=5" height="118"/>
+    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,vercel,eclipse,unity&perline=6" height="120"/>
 </a>
 
-</td><td valign="top" width="25%">
-🍀 Utilities
+
+### 🍀 Utilities
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,mint,windows,github,figma&perline=5" height="70"/>
+    <img src="https://skillicons.dev/icons?i=linux,mint,windows,github,figma&perline=6" height="60"/>
 </a>
-</td>
-</tr></table>
+
 
 <div align="center">
 <h2>🏆  My skills  🏆</h2>
