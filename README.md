@@ -9,6 +9,10 @@
     📆 17 years
            
   </div>
+
+<div align="center">
+  <img align="center" margin="20" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&column=7&margin-w=10&margin-h=15&theme=gruvbox&no-frame=true&title=-Experience">
+</div>
   
 
 ### ⚒️ Main tools
@@ -43,12 +47,6 @@
 <img height="150em" src="https://www.fightersgeneration.com/characters/dio-standing2.gif">
 <img src="https://streak-stats.demolab.com?user=MathFerreiraDev&theme=gotham&locale=pt_BR&date_format=j%20M%5B%20Y%5D&mode=weekly&border=315612&background=000000">
 <img height="150em" src="https://art.ngfiles.com/comments/129000/iu_129688_8024736.gif">
-</div>
-
-<br>
-
-<div align="center">
-  <img align="center" margin="2" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&column=7&margin-w=10&margin-h=15&theme=gruvbox&no-frame=true&title=-Experience">
 </div>
 
 <br>
