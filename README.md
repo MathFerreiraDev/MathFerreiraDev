@@ -23,7 +23,7 @@
 
 ## 🖥️ Workspaces
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,eclipse,unity" height="60"/>
+    <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,sublime,replit,vercel,eclipse,unity&perline=6" height="130"/>
 </a>
 
 ## 🍀 Utilities
