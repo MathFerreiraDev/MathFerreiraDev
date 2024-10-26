@@ -13,7 +13,7 @@
 
 ## ⚒️ Main tools
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,js,arduino,mysql,sqlite,mongodb&perline=6" height="130"/>
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,cpp,cs,java,arduino,mysql,sqlite,mongodb&perline=6" height="130"/>
 </a>
 
 ## 📤 Frameworks
