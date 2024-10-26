@@ -3,14 +3,15 @@
 
 <div width="100">
         
-    👤  INSERT INTO github_accounts (name, age, birthdate, location, course, email)
+    👤  INSERT INTO github_accounts (name, age, birthdate, location, course, email, segment)
         VALUES (
             'Matheus H. Ferreira',
             '17 years old',
             '2007-04-04',
             'Bariri/SP - Brasil',
             '3nd Desenvolvimento de Sistemas',
-            'matheushenriquefrreira2007@yahoo.com'
+            'matheushenriquefrreira2007@yahoo.com',
+            'Backend developer"
         );
 
            
