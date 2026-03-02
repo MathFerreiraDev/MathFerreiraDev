@@ -6,10 +6,10 @@
     👤  INSERT INTO github_accounts (name, age, birthdate, location, course, email, segment)
         VALUES (
             'Matheus H. Ferreira',
-            '17 years old',
+            '18 years old',
             '2007-04-04',
-            'Bariri/SP - Brasil',
-            '3nd Desenvolvimento de Sistemas',
+            'Bariri/SP || São Carlos/SP - Brasil',
+            '1nd Bacharelado em Ciências da Computação',
             'matheushenriquefrreira2007@yahoo.com',
             'Backend developer"
         );
