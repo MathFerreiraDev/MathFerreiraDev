@@ -17,9 +17,7 @@
            
   </div>
 
-<div align="center">
-  <img align="center" margin="20" src="https://github-profile-trophy.vercel.app/?username=MathFerreiraDev&column=7&margin-w=10&margin-h=15&theme=gruvbox&no-frame=true&title=-Experience">
-</div>
+
   
 
 ### ⚒️ Main tools
