@@ -1,5 +1,4 @@
 
-| <img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /> | [@MathFerreiraDev](https://github.com/MathFerreiraDev) | *Testando livro de visitas!* |
 ## Hello World, I am always trying to push my limits !!! 🌎👋🏼
 
 <div width="100">
@@ -60,8 +59,8 @@
 ### 📖 Livro de Visitas
 Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui](https://github.com/MathFerreiraDev/MathFerreiraDev/issues/2)!
 
-| Foto       | Usuário    | Mensagem   |
-| :--------- | :--------- | :--------- |
+| Foto | Usuário | Mensagem |
+| :---: | :--- | :--- |
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
 
