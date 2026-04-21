@@ -22,7 +22,7 @@ jobs:
             let readme = fs.readFileSync('README.md', 'utf8');
             const tag = '<!-- GUESTBOOK -->';
             if (readme.includes(tag)) {
-              const updated = readme.replace(tag, tag + '\n' + newEntry);
+              const updated = readme.replace(tag, newEntry + '\n' + tag);
               fs.writeFileSync('README.md', updated);
             } else {
               throw new Error('Tag nao encontrada no README');
