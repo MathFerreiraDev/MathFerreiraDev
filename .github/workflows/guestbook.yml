@@ -30,19 +30,18 @@ jobs:
             const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |`;
 
             let readme = fs.readFileSync('README.md', 'utf8');
-            const startTag = '';
-            const endTag = '';
+            
+            // Regex que ignora espaços extras entre os traços e o texto
+            const startTagRegex = //i;
+            const endTagRegex = //i;
 
-            const startIndex = readme.indexOf(startTag);
-            const endIndex = readme.indexOf(endTag);
-
-            if (startIndex !== -1 && endIndex !== -1 && startIndex < endIndex) {
-              const before = readme.substring(0, startIndex + startTag.length);
-              const after = readme.substring(startIndex + startTag.length);
-              const updatedReadme = before + '\n' + newEntry + after;
+            if (startTagRegex.test(readme) && endTagRegex.test(readme)) {
+              // Substitui a tag de início por ela mesma + a nova linha
+              const updatedReadme = readme.replace(startTagRegex, `\n${newEntry}`);
               fs.writeFileSync('README.md', updatedReadme);
             } else {
-              throw new Error('Tags não encontradas!');
+              console.log("Conteúdo do README lido:\n", readme);
+              throw new Error('Tags não encontradas! Verifique se digitou exatamente assim.');
             }
 
       - name: Commit and push
