@@ -25,23 +25,15 @@ jobs:
             const user = context.payload.comment.user.login;
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
-
             const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
             const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |`;
-
             let readme = fs.readFileSync('README.md', 'utf8');
-            
-            // Regex que ignora espaços extras entre os traços e o texto
-            const startTagRegex = //i;
-            const endTagRegex = //i;
-
-            if (startTagRegex.test(readme) && endTagRegex.test(readme)) {
-              // Substitui a tag de início por ela mesma + a nova linha
-              const updatedReadme = readme.replace(startTagRegex, `\n${newEntry}`);
+            const startTag = //i;
+            if (startTag.test(readme)) {
+              const updatedReadme = readme.replace(startTag, `\n${newEntry}`);
               fs.writeFileSync('README.md', updatedReadme);
             } else {
-              console.log("Conteúdo do README lido:\n", readme);
-              throw new Error('Tags não encontradas! Verifique se digitou exatamente assim.');
+              throw new Error('Tag GUESTBOOK-START nao encontrada no README!');
             }
 
       - name: Commit and push
