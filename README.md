@@ -58,10 +58,14 @@
 
 ### 📖 Livro de Visitas
 Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui](https://github.com/MathFerreiraDev/MathFerreiraDev/issues/2)!
-| Foto | Usuário | Mensagem |
-| :---: | :--- | :--- |
 
-| <img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /> | [@MathFerreiraDev](https://github.com/MathFerreiraDev) | *o rato roeu a roupa do rei de Roma* |
+<table>
+<thead>
+<tr><th width="60">Foto</th><th width="160">Usuário</th><th>Mensagem</th></tr>
+</thead>
+<tbody>
 <!-- GUESTBOOK -->
+</tbody>
+</table>
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
