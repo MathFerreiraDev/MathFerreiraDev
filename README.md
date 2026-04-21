@@ -58,9 +58,8 @@
 
 ### 📖 Livro de Visitas
 Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui](https://github.com/MathFerreiraDev/MathFerreiraDev/issues/2)!
-
 | Foto | Usuário | Mensagem |
 | :---: | :--- | :--- |
-<br>
+<!-- GUESTBOOK -->
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
