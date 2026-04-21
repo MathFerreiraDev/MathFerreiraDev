@@ -1,4 +1,5 @@
 
+| <img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /> | [@MathFerreiraDev](https://github.com/MathFerreiraDev) | *Fudido * |
 ## Hello World, I am always trying to push my limits !!! 🌎👋🏼
 
 <div width="100">
