@@ -64,6 +64,7 @@ Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui
 <tr><th width="60">Foto</th><th width="160">Usuário</th><th>Mensagem</th></tr>
 </thead>
 <tbody>
+<tr><td align="center"><img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /></td><td><a href="https://github.com/MathFerreiraDev">@MathFerreiraDev</a></td><td><em>Blehh</em></td></tr>
 <!-- GUESTBOOK -->
 </tbody>
 </table>
