@@ -1,0 +1,49 @@
+name: Update Guestbook
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  update-guestbook:
+    runs-on: ubuntu-latest
+   
+    if: contains(github.event.issue.labels.*.name, 'guestbook') && !github.event.comment.user.login.endsWith('[bot]')
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update README.md
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const comment = context.payload.comment.body;
+            const user = context.payload.comment.user.login;
+            const avatar = context.payload.comment.user.avatar_url;
+            const userUrl = context.payload.comment.user.html_url;
+
+           
+            const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
+            
+            
+            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |\n`;
+
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const startMarker = '\n';
+            
+           
+            const updatedReadme = readme.replace(startMarker, startMarker + newEntry);
+            fs.writeFileSync('README.md', updatedReadme);
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "📝 guestbook: assinatura de @${{ github.event.comment.user.login }}" || exit 0
+          git push
