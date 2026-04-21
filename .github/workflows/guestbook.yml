@@ -7,8 +7,8 @@ on:
 jobs:
   update-guestbook:
     runs-on: ubuntu-latest
-   
-    if: contains(github.event.issue.labels.*.name, 'guestbook') && !github.event.comment.user.login.endsWith('[bot]')
+  
+    if: contains(github.event.issue.labels.*.name, 'guestbook') && github.event.comment.user.type != 'Bot'
     
     permissions:
       contents: write
@@ -27,7 +27,7 @@ jobs:
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
 
-           
+            
             const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
             
             
@@ -36,14 +36,18 @@ jobs:
             let readme = fs.readFileSync('README.md', 'utf8');
             const startMarker = '\n';
             
-           
-            const updatedReadme = readme.replace(startMarker, startMarker + newEntry);
-            fs.writeFileSync('README.md', updatedReadme);
+         
+            if (readme.includes(startMarker)) {
+              const updatedReadme = readme.replace(startMarker, startMarker + newEntry);
+              fs.writeFileSync('README.md', updatedReadme);
+            } else {
+              throw new Error('Marcador não encontrado no README.md');
+            }
 
       - name: Commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "📝 guestbook: assinatura de @${{ github.event.comment.user.login }}" || exit 0
-          git push
+          # Só commita se houver mudanças reais
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📝 guestbook: assinatura de @${{ github.event.comment.user.login }}" && git push)
