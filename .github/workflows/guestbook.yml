@@ -20,7 +20,7 @@ jobs:
             const userUrl = context.payload.comment.user.html_url;
             const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${comment}* |`;
             let readme = fs.readFileSync('README.md', 'utf8');
-            const tag = '';
+            const tag = '<!-- GUESTBOOK -->';
             if (readme.includes(tag)) {
               const updated = readme.replace(tag, tag + '\n' + newEntry);
               fs.writeFileSync('README.md', updated);
