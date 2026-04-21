@@ -65,6 +65,7 @@ Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui
 </thead>
 <tbody>
 
+<tr><td align="center"><img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /></td><td><a href="https://github.com/MathFerreiraDev">@MathFerreiraDev</a></td><td><em>O rato roeu a roupa do rei de Roma</em></td></tr>
 <!-- GUESTBOOK -->
 </tbody>
 </table>
