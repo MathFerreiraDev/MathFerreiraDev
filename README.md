@@ -57,7 +57,7 @@
 <br>
 
 ### 📖 Livro de Visitas
-Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui](COLOQUE_O_LINK_DA_SUA_ISSUE_AQUI)!
+Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui](https://github.com/MathFerreiraDev/MathFerreiraDev/issues/2)!
 
 | Foto       | Usuário    | Mensagem   |
 | :--------- | :--------- | :--------- |
