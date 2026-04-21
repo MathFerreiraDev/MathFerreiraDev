@@ -18,7 +18,7 @@ jobs:
             const user = context.payload.comment.user.login;
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
-            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${comment}* |`;
+            const newEntry = `<tr><td align="center"><img src="${avatar}" width="40" height="40" style="border-radius:50%" /></td><td><a href="${userUrl}">@${user}</a></td><td><em>${comment}</em></td></tr>`;
             let readme = fs.readFileSync('README.md', 'utf8');
             const tag = '<!-- GUESTBOOK -->';
             if (readme.includes(tag)) {
