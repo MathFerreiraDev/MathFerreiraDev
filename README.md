@@ -61,6 +61,7 @@ Quer assinar meu livro de visitas? Basta deixar um comentário [nesta Issue aqui
 | Foto | Usuário | Mensagem |
 | :---: | :--- | :--- |
 
+| <img src="https://avatars.githubusercontent.com/u/101345181?v=4" width="40" height="40" style="border-radius:50%" /> | [@MathFerreiraDev](https://github.com/MathFerreiraDev) | *o rato roeu a roupa do rei de Roma* |
 <!-- GUESTBOOK -->
 
 <img height="20" align="right" src="https://komarev.com/ghpvc/?username=MathFerreiraDev">
