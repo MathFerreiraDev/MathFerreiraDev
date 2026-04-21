@@ -7,7 +7,6 @@ on:
 jobs:
   update-guestbook:
     runs-on: ubuntu-latest
-  
     if: contains(github.event.issue.labels.*.name, 'guestbook') && github.event.comment.user.type != 'Bot'
     
     permissions:
@@ -27,21 +26,29 @@ jobs:
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
 
-            
+        
             const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
             
-            
-            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |\n`;
+          
+            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |`;
 
+          
             let readme = fs.readFileSync('README.md', 'utf8');
-            const startMarker = '\n';
             
-         
-            if (readme.includes(startMarker)) {
-              const updatedReadme = readme.replace(startMarker, startMarker + newEntry);
+           
+            const startTag = '';
+            
+            if (readme.includes(startTag)) {
+              
+              const parts = readme.split(startTag);
+              
+              
+            
+              const updatedReadme = parts[0] + startTag + '\n' + newEntry + parts[1];
+              
               fs.writeFileSync('README.md', updatedReadme);
             } else {
-              throw new Error('Marcador não encontrado no README.md');
+              throw new Error('Não achei a tag no seu README!');
             }
 
       - name: Commit and push
@@ -49,5 +56,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          # Só commita se houver mudanças reais
-          git diff --quiet && git diff --staged --quiet || (git commit -m "📝 guestbook: assinatura de @${{ github.event.comment.user.login }}" && git push)
+          git commit -m "📝 guestbook: nova assinatura de @${{ github.event.comment.user.login }}" || exit 0
+          git push
