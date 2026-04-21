@@ -26,29 +26,23 @@ jobs:
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
 
-        
             const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
-            
-          
             const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |`;
 
-          
             let readme = fs.readFileSync('README.md', 'utf8');
+            const tag = '';
+
+            // Se não encontrar a tag, o script para aqui e não salva nada!
+            if (!readme.includes(tag)) {
+              throw new Error('Tag não encontrada! O arquivo não foi alterado.');
+            }
+
+            // Inserção segura usando Regex para preservar o resto do arquivo
+            const updatedReadme = readme.replace(tag, `${tag}\n${newEntry}`);
             
-           
-            const startTag = '';
-            
-            if (readme.includes(startTag)) {
-              
-              const parts = readme.split(startTag);
-              
-              
-            
-              const updatedReadme = parts[0] + startTag + '\n' + newEntry + parts[1];
-              
-              fs.writeFileSync('README.md', updatedReadme);
-            } else {
-              throw new Error('Não achei a tag no seu README!');
+            // Só escreve no arquivo se o conteúdo resultante não for vazio
+            if (updatedReadme && updatedReadme.trim().length > 0) {
+                fs.writeFileSync('README.md', updatedReadme);
             }
 
       - name: Commit and push
@@ -56,5 +50,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "📝 guestbook: nova assinatura de @${{ github.event.comment.user.login }}" || exit 0
+          git commit -m "📝 guestbook: assinatura de @${{ github.event.comment.user.login }}" || exit 0
           git push
