@@ -9,20 +9,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Update README
-        uses: actions/github-script@v7
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const comment = context.payload.comment.body;
+            const comment = context.payload.comment.body.replace(/\r?\n|\r/g, " ").substring(0, 140);
             const user = context.payload.comment.user.login;
             const avatar = context.payload.comment.user.avatar_url;
             const userUrl = context.payload.comment.user.html_url;
-            const cleanComment = comment.replace(/\r?\n|\r/g, " ").substring(0, 140);
-            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${cleanComment}* |`;
-            const readme = fs.readFileSync('README.md', 'utf8');
+            const newEntry = `| <img src="${avatar}" width="40" height="40" style="border-radius:50%" /> | [@${user}](${userUrl}) | *${comment}* |`;
+            let readme = fs.readFileSync('README.md', 'utf8');
             const tag = '';
             if (readme.includes(tag)) {
               const updated = readme.replace(tag, tag + '\n' + newEntry);
@@ -30,7 +27,7 @@ jobs:
             } else {
               throw new Error('Tag nao encontrada no README');
             }
-      - name: Push changes
+      - name: Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
